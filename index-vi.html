@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="ko">
+<html lang="vi">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>School of K-Beauty | 재능대학교 × FPT Polytechnic</title>
-<meta name="description" content="한국 뷰티를 배우고 스킨텔렉추얼로 성장하라 — School of K-Beauty는 재능대학교와 FPT Polytechnic의 파트너십으로 탄생한 K-뷰티 전문 교육 프로그램입니다.">
+<title>School of K-Beauty | Đại học Jaeneung × FPT Polytechnic</title>
+<meta name="description" content="Học làm đẹp Hàn Quốc và phát triển kỹ năng của bạn — School of K-Beauty là chương trình đào tạo K-Beauty chuyên sâu ra đời từ hợp tác giữa Đại học Jaeneung và FPT Polytechnic.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="School of K-Beauty | 재능대학교 × FPT Polytechnic">
-<meta property="og:description" content="베트남 최초 학계·산업·정부가 함께 만드는 2년제 K-뷰티 전문가 과정">
+<meta property="og:title" content="School of K-Beauty | Đại học Jaeneung × FPT Polytechnic">
+<meta property="og:description" content="Chương trình đào tạo chuyên gia K-Beauty 2 năm đầu tiên tại Việt Nam do học thuật · doanh nghiệp · chính phủ cùng xây dựng">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2319226D'/%3E%3Crect x='30' y='30' width='40' height='40' fill='%23F37021' transform='rotate(45 50 50)'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -99,7 +99,7 @@
     .nav-dropdown-inner a:hover{background:var(--bg-alt);color:var(--navy);}
     .nav-dropdown-right{left:auto;right:0;transform:none;}
 
-    /* full-width mega panel (소개 / 프로그램 / 진로) */
+    /* full-width mega panel */
     .mega-panel{position:fixed;top:66px;left:0;right:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s ease,transform .2s ease;transform:translateY(-6px);z-index:40;}
     .nav-item:hover .mega-panel,.nav-item:focus-within .mega-panel{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);}
     .mega-surface{background:#fff;border-top:1px solid var(--line);box-shadow:0 28px 48px -24px rgba(8,10,32,.35);}
@@ -142,21 +142,6 @@
     .hero{position:relative;overflow:hidden;background:linear-gradient(165deg,var(--navy) 0%,var(--navy-deep) 100%);}
     .hero-inner{position:relative;z-index:1;padding:132px 0 96px;}
 
-    /* about */
-    .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center;}
-    .about-media{position:relative;}
-    .about-media-frame{border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-md);aspect-ratio:3/4;}
-    .about-media-frame img{width:100%;height:100%;object-fit:cover;}
-    .about-media-decor{position:absolute;inset:auto -18px -18px auto;width:110px;height:110px;background:var(--orange-tint);border-radius:var(--radius);z-index:-1;}
-
-    /* experience banner */
-    .exp-banner{position:relative;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-md);height:340px;margin-top:56px;}
-    .exp-banner img{width:100%;height:100%;object-fit:cover;object-position:center 25%;}
-    .exp-banner::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(13,17,48,.72) 0%,rgba(13,17,48,0) 55%);}
-    .exp-banner-caption{position:absolute;left:32px;bottom:26px;color:#fff;}
-    .exp-banner-caption .disp{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--orange-light);text-transform:uppercase;}
-    .exp-banner-caption div:last-child{font-size:20px;font-weight:700;margin-top:6px;}
-
     /* reveal on scroll */
     .reveal{opacity:0;transform:translateY(30px);transition:opacity .8s cubic-bezier(.16,.8,.3,1),transform .8s cubic-bezier(.16,.8,.3,1);}
     .reveal.in{opacity:1;transform:translateY(0);}
@@ -182,9 +167,6 @@
       .navlinks{display:none;}
       .nav-toggle{display:flex;}
       .hero-inner{padding:64px 0 88px;}
-      .about-grid{grid-template-columns:1fr;gap:40px;}
-      .about-media{order:-1;max-width:380px;margin:0 auto;}
-      .exp-banner{height:260px;}
     }
     @media (max-width:640px){
       .grid-2,.grid-3,.grid-4,.grid-6{grid-template-columns:repeat(1,minmax(0,1fr)) !important;}
@@ -192,7 +174,6 @@
       .split{flex-direction:column !important;}
       .stat-col{border-right:none !important;border-bottom:1px solid var(--line);padding-bottom:20px !important;}
       .stat-col:last-child{border-bottom:none;padding-bottom:0 !important;}
-      .exp-banner{height:220px;}
       .logo{font-size:15px;gap:6px;white-space:nowrap;}
       .logo-mark{width:11px;height:11px;}
       nav.topbar .btn{padding:9px 14px;font-size:12.5px;}
@@ -207,7 +188,7 @@
     <div class="logo logo-boxed"><span class="logo-mark"></span>School of <span>K-Beauty</span></div>
     <div class="row navlinks">
       <div class="nav-item">
-        <a class="navlink" href="about.html#about">소개
+        <a class="navlink" href="about.html#about">Giới thiệu
           <svg class="nav-caret" width="9" height="6" viewBox="0 0 9 6" fill="none"><path d="M1 1l3.5 3.5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <div class="mega-panel">
@@ -215,27 +196,27 @@
             <div class="mega-grid">
               <div class="mega-rail">
                 <div class="mega-rail-inner">
-                  <div class="mega-rail-label">소개</div>
+                  <div class="mega-rail-label">Giới thiệu</div>
                 </div>
               </div>
               <div class="mega-cols" style="grid-template-columns:repeat(3,1fr);">
                 <div class="mega-col">
-                  <a class="mega-col-head" href="about.html#about">학교 소개</a>
+                  <a class="mega-col-head" href="about.html#about">Giới thiệu trường</a>
                 </div>
                 <div class="mega-col">
-                  <a class="mega-col-head" href="about.html#partnership">파트너십 (JEIU × FPT)</a>
+                  <a class="mega-col-head" href="about.html#partnership">Hợp tác (JEIU × FPT)</a>
                 </div>
                 <div class="mega-col">
-                  <a class="mega-col-head" href="about.html#partners">교수진</a>
+                  <a class="mega-col-head" href="about.html#partners">Đội ngũ giảng viên</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a class="navlink" href="about.html#why">왜 K-Beauty</a>
+      <a class="navlink" href="about.html#why">Vì sao K-Beauty</a>
       <div class="nav-item">
-        <a class="navlink" href="program.html#program">프로그램
+        <a class="navlink" href="program.html#program">Chương trình
           <svg class="nav-caret" width="9" height="6" viewBox="0 0 9 6" fill="none"><path d="M1 1l3.5 3.5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <div class="mega-panel">
@@ -243,28 +224,28 @@
             <div class="mega-grid">
               <div class="mega-rail">
                 <div class="mega-rail-inner">
-                  <div class="mega-rail-label">프로그램</div>
+                  <div class="mega-rail-label">Chương trình</div>
                 </div>
               </div>
               <div class="mega-cols" style="grid-template-columns:repeat(2,1fr);">
                 <div class="mega-col">
-                  <div class="mega-col-head">커리큘럼</div>
+                  <div class="mega-col-head">Giáo trình</div>
                   <ul>
-                    <li><a href="program.html#program">프로그램 개요</a></li>
-                    <li><a href="program.html#learn">배울 내용</a></li>
+                    <li><a href="program.html#program">Tổng quan chương trình</a></li>
+                    <li><a href="program.html#learn">Nội dung học</a></li>
                   </ul>
                 </div>
                 <div class="mega-col">
-                  <a class="mega-col-head" href="program.html#experience">K-Beauty 실습 경험</a>
+                  <a class="mega-col-head" href="program.html#experience">Trải nghiệm thực hành K-Beauty</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a class="navlink" href="admission.html#admission">입학안내</a>
+      <a class="navlink" href="admission.html#admission">Tuyển sinh</a>
       <div class="nav-item">
-        <a class="navlink" href="career.html#career">진로
+        <a class="navlink" href="career.html#career">Nghề nghiệp
           <svg class="nav-caret" width="9" height="6" viewBox="0 0 9 6" fill="none"><path d="M1 1l3.5 3.5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <div class="mega-panel">
@@ -272,57 +253,57 @@
             <div class="mega-grid">
               <div class="mega-rail">
                 <div class="mega-rail-inner">
-                  <div class="mega-rail-label">진로</div>
+                  <div class="mega-rail-label">Nghề nghiệp</div>
                 </div>
               </div>
               <div class="mega-cols" style="grid-template-columns:repeat(2,1fr);">
                 <div class="mega-col">
-                  <a class="mega-col-head" href="career.html#career">졸업 후 진로</a>
+                  <a class="mega-col-head" href="career.html#career">Nghề nghiệp sau tốt nghiệp</a>
                 </div>
                 <div class="mega-col">
-                  <a class="mega-col-head" href="career.html#certificates">취득 가능 자격증</a>
+                  <a class="mega-col-head" href="career.html#certificates">Chứng chỉ có thể đạt được</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <span class="navlink-muted">소식<span class="soon-tag">준비중</span></span>
+      <span class="navlink-muted">Tin tức<span class="soon-tag">sắp ra mắt</span></span>
     </div>
     <div class="row" style="gap:22px;">
       <div class="nav-item nav-item-utility">
-        <a class="navlink" href="#" onclick="return false;">언어 · KO
+        <a class="navlink" href="#" onclick="return false;">Ngôn ngữ · VI
           <svg class="nav-caret" width="9" height="6" viewBox="0 0 9 6" fill="none"><path d="M1 1l3.5 3.5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <div class="nav-dropdown nav-dropdown-right">
           <div class="nav-dropdown-inner">
-            <a href="#" onclick="return false;" style="color:var(--navy);font-weight:700;">한국어</a>
-            <a href="index-vi.html">Tiếng Việt</a>
+            <a href="index.html">한국어 (Tiếng Hàn)</a>
+            <a href="#" onclick="return false;" style="color:var(--navy);font-weight:700;">Tiếng Việt</a>
           </div>
         </div>
       </div>
-      <a class="btn btn-primary" href="#apply" style="padding:10px 20px;font-size:13.5px;">지원하기</a>
-      <button class="nav-toggle nav-toggle-dark" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navPanel">
+      <a class="btn btn-primary" href="#apply" style="padding:10px 20px;font-size:13.5px;">Đăng ký</a>
+      <button class="nav-toggle nav-toggle-dark" id="navToggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navPanel">
         <span></span><span></span><span></span>
       </button>
     </div>
     <div class="nav-panel" id="navPanel">
-      <span class="nav-panel-heading">소개</span>
-      <a href="about.html#about">학교 소개</a>
-      <a href="about.html#partnership">파트너십 (JEIU × FPT)</a>
-      <a href="about.html#partners">교수진</a>
-      <a href="about.html#why" style="border-top:1px solid var(--line);margin-top:6px;padding-top:16px;">왜 K-Beauty</a>
-      <span class="nav-panel-heading">프로그램</span>
-      <a href="program.html#program">프로그램 개요</a>
-      <a href="program.html#learn">배울 내용</a>
-      <a href="program.html#experience">K-Beauty 실습 경험</a>
-      <a href="admission.html#admission" style="border-top:1px solid var(--line);margin-top:6px;padding-top:16px;">입학안내</a>
-      <span class="nav-panel-heading">진로</span>
-      <a href="career.html#career">졸업 후 진로</a>
-      <a href="career.html#certificates">취득 가능 자격증</a>
-      <span class="nav-panel-heading">기타</span>
-      <span class="lang-soon">소식 <span class="soon-tag">준비중</span></span>
-      <span class="lang-soon">언어: 한국어 · <a href="index-vi.html">Tiếng Việt</a></span>
+      <span class="nav-panel-heading">Giới thiệu</span>
+      <a href="about.html#about">Giới thiệu trường</a>
+      <a href="about.html#partnership">Hợp tác (JEIU × FPT)</a>
+      <a href="about.html#partners">Đội ngũ giảng viên</a>
+      <a href="about.html#why" style="border-top:1px solid var(--line);margin-top:6px;padding-top:16px;">Vì sao K-Beauty</a>
+      <span class="nav-panel-heading">Chương trình</span>
+      <a href="program.html#program">Tổng quan chương trình</a>
+      <a href="program.html#learn">Nội dung học</a>
+      <a href="program.html#experience">Trải nghiệm thực hành K-Beauty</a>
+      <a href="admission.html#admission" style="border-top:1px solid var(--line);margin-top:6px;padding-top:16px;">Tuyển sinh</a>
+      <span class="nav-panel-heading">Nghề nghiệp</span>
+      <a href="career.html#career">Nghề nghiệp sau tốt nghiệp</a>
+      <a href="career.html#certificates">Chứng chỉ có thể đạt được</a>
+      <span class="nav-panel-heading">Khác</span>
+      <span class="lang-soon">Tin tức <span class="soon-tag">sắp ra mắt</span></span>
+      <span class="lang-soon">Ngôn ngữ: <a href="index.html">한국어</a> · Tiếng Việt</span>
     </div>
   </div>
 </nav>
@@ -343,14 +324,14 @@
 
   <div class="wrap hero-inner">
     <div class="hero-copy" style="max-width:760px;margin:0 auto;text-align:center;">
-      <div class="eyebrow on-dark" style="justify-content:center;">FPT POLYTECHNIC 교육과정</div>
-      <h1 style="font-size:52px;line-height:1.22;margin-top:22px;color:#fff;">한국 뷰티를 배우고<br>스킬을 성장시키세요</h1>
+      <div class="eyebrow on-dark" style="justify-content:center;">CHƯƠNG TRÌNH FPT POLYTECHNIC</div>
+      <h1 style="font-size:52px;line-height:1.22;margin-top:22px;color:#fff;">Học làm đẹp Hàn Quốc<br>và phát triển kỹ năng của bạn</h1>
       <p style="font-size:18px;color:rgba(255,255,255,.72);margin-top:24px;max-width:480px;margin-left:auto;margin-right:auto;">
-        베트남 최초 학계·산업·정부가 함께 만드는<br>2년제 K-뷰티 전문가 과정
+        Chương trình đào tạo chuyên gia K-Beauty 2 năm<br>đầu tiên tại Việt Nam do học thuật · doanh nghiệp · chính phủ hợp tác xây dựng
       </p>
       <div class="row" style="gap:14px;margin-top:38px;flex-wrap:wrap;justify-content:center;">
-        <a class="btn btn-primary" href="#apply">지금 지원하기 →</a>
-        <a class="btn btn-ghost" href="program.html#program">프로그램 살펴보기</a>
+        <a class="btn btn-primary" href="#apply">Đăng ký ngay →</a>
+        <a class="btn btn-ghost" href="program.html#program">Xem chương trình</a>
       </div>
     </div>
   </div>
@@ -359,16 +340,16 @@
 <div class="wrap" style="position:relative;z-index:5;margin-top:-64px;margin-bottom:0;">
   <div class="float-card grid-3 reveal-group">
     <div class="col stat-col" style="align-items:center;text-align:center;padding:30px 20px;">
-      <div class="stat-num">지속 성장</div>
-      <div class="stat-label">놓칠 수 없는 베트남 뷰티 시장</div>
+      <div class="stat-num">Tăng trưởng bền vững</div>
+      <div class="stat-label">Thị trường làm đẹp Việt Nam không thể bỏ lỡ</div>
     </div>
     <div class="col stat-col" style="align-items:center;text-align:center;padding:30px 20px;">
-      <div class="stat-num">2년</div>
-      <div class="stat-label">이중 트랙 교육과정</div>
+      <div class="stat-num">2 năm</div>
+      <div class="stat-label">Chương trình đào tạo song hướng</div>
     </div>
     <div class="col stat-col" style="align-items:center;text-align:center;padding:30px 20px;">
-      <div class="stat-num">8만+</div>
-      <div class="stat-label">한국·베트남 학생 생태계</div>
+      <div class="stat-num">80.000+</div>
+      <div class="stat-label">Hệ sinh thái sinh viên Hàn - Việt</div>
     </div>
   </div>
 </div>
@@ -378,43 +359,43 @@
 <section class="section" id="about">
   <div class="wrap">
     <div class="col reveal" style="align-items:center;text-align:center;max-width:680px;margin:0 auto;">
-      <div class="eyebrow">OVERVIEW</div>
-      <h2 style="font-size:30px;line-height:1.4;margin-top:18px;color:var(--navy);">K-Beauty를 산업이 아닌<br>과학으로 배우는 곳</h2>
+      <div class="eyebrow">TỔNG QUAN</div>
+      <h2 style="font-size:30px;line-height:1.4;margin-top:18px;color:var(--navy);">Nơi K-Beauty được dạy như<br>một môn khoa học, không phải xu hướng</h2>
       <p style="font-size:16px;color:var(--ink-soft);margin-top:18px;">
-        School of K-Beauty는 재능대학교(JEIU)와 FPT Polytechnic이 함께 만든 2년제 K-뷰티 최고급 교육과정입니다.
+        School of K-Beauty là chương trình đào tạo K-Beauty cao cấp 2 năm do Đại học Jaeneung (JEIU) và FPT Polytechnic cùng xây dựng.
       </p>
     </div>
 
     <div class="grid-3 reveal-group" style="margin-top:56px;">
       <a class="card card-hover" href="about.html" style="display:block;color:inherit;">
-        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">소개</div>
-        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">JEIU × FPT Polytechnic 파트너십</div>
-        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">2023년 MOU 체결, 서울대 의대·숙명여대 등 검증된 교수진</div>
-        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">자세히 보기 →</div>
+        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">Giới thiệu</div>
+        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">Hợp tác JEIU × FPT Polytechnic</div>
+        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">Ký kết MOU năm 2023, đội ngũ giảng viên uy tín từ Đại học Y Seoul, Đại học Nữ sinh Sookmyung...</div>
+        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">Xem chi tiết →</div>
       </a>
       <a class="card card-hover" href="about.html#why" style="display:block;color:inherit;">
-        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">왜 K-Beauty</div>
-        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">과학적 현지화 커리큘럼</div>
-        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">베트남의 기후·피부톤·소비자 문화에 맞춘 트리플 헬릭스 운영 모델</div>
-        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">자세히 보기 →</div>
+        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">Vì sao K-Beauty</div>
+        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">Giáo trình bản địa hóa khoa học</div>
+        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">Mô hình Triple Helix phù hợp với khí hậu, tông da và văn hóa tiêu dùng Việt Nam</div>
+        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">Xem chi tiết →</div>
       </a>
       <a class="card card-hover" href="program.html" style="display:block;color:inherit;">
-        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">프로그램</div>
-        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">2년, 5대 학습 영역 + 이중 전공 트랙</div>
-        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">공통 기초 후 창의적 표현(Track A) · 비즈니스·실무(Track B)로 전문화</div>
-        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">자세히 보기 →</div>
+        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">Chương trình</div>
+        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">2 năm, 5 lĩnh vực học tập + 2 chuyên ngành</div>
+        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">Sau nền tảng chung, chuyên sâu theo hướng Biểu đạt sáng tạo (Track A) hoặc Kinh doanh · Thực hành (Track B)</div>
+        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">Xem chi tiết →</div>
       </a>
       <a class="card card-hover" href="admission.html" style="display:block;color:inherit;">
-        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">입학안내</div>
-        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">지원 자격 및 절차</div>
-        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">지원 자격 확인부터 합격자 발표까지 4단계</div>
-        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">자세히 보기 →</div>
+        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">Tuyển sinh</div>
+        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">Điều kiện và quy trình tuyển sinh</div>
+        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">4 bước từ kiểm tra điều kiện đến công bố kết quả trúng tuyển</div>
+        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">Xem chi tiết →</div>
       </a>
       <a class="card card-hover" href="career.html" style="display:block;color:inherit;">
-        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">진로</div>
-        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">졸업생 취업률 95%</div>
-        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">뷰티 크리에이터, 네일 살롱 창업, 스킨케어 전문가 등 다양한 진로</div>
-        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">자세히 보기 →</div>
+        <div class="disp" style="font-size:13px;color:var(--orange-deep);font-weight:700;">Nghề nghiệp</div>
+        <div style="font-size:15px;font-weight:700;margin-top:8px;color:var(--navy);">Tỷ lệ có việc làm sau tốt nghiệp 95%</div>
+        <div style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">Nhà sáng tạo nội dung làm đẹp, khởi nghiệp tiệm nail, chuyên gia chăm sóc da và nhiều hướng đi khác</div>
+        <div style="font-size:13px;color:var(--orange-deep);font-weight:700;margin-top:14px;">Xem chi tiết →</div>
       </a>
     </div>
   </div>
@@ -424,10 +405,10 @@
 <section id="apply" style="background:linear-gradient(135deg,var(--orange) 0%,var(--orange-deep) 100%);position:relative;overflow:hidden;">
   <svg width="420" height="420" viewBox="0 0 420 420" style="position:absolute;left:-140px;bottom:-160px;" class="hero-visual"><polygon points="0,420 0,80 340,420" fill="#ffffff" opacity=".08"/></svg>
   <div class="wrap col reveal" style="align-items:center;text-align:center;position:relative;padding:96px 0;">
-    <h2 style="font-size:36px;color:var(--navy-deep);max-width:600px;line-height:1.35;">당신의 K-뷰티 여정을<br>지금 시작하세요</h2>
-    <p style="color:rgba(16,23,63,.75);font-size:16px;margin-top:14px;">FPT Polytechnic × JEIU가 함께 만드는 2년제 K-뷰티 전문가 과정</p>
-    <span class="btn btn-navy" aria-disabled="true" style="margin-top:30px;opacity:.6;cursor:not-allowed;">지원서 제출하기 →</span>
-    <div style="font-size:13px;color:rgba(16,23,63,.6);margin-top:12px;">지원 접수는 추후 공지를 통해 안내드립니다</div>
+    <h2 style="font-size:36px;color:var(--navy-deep);max-width:600px;line-height:1.35;">Bắt đầu hành trình K-Beauty<br>của bạn ngay hôm nay</h2>
+    <p style="color:rgba(16,23,63,.75);font-size:16px;margin-top:14px;">Chương trình đào tạo chuyên gia K-Beauty 2 năm do FPT Polytechnic × JEIU cùng xây dựng</p>
+    <span class="btn btn-navy" aria-disabled="true" style="margin-top:30px;opacity:.6;cursor:not-allowed;">Nộp hồ sơ đăng ký →</span>
+    <div style="font-size:13px;color:rgba(16,23,63,.6);margin-top:12px;">Thông tin tuyển sinh sẽ được thông báo sau</div>
   </div>
 </section>
 
@@ -438,13 +419,13 @@
       <div>
         <div class="logo" style="color:#fff;"><span class="logo-mark"></span>School of <span style="color:var(--orange-light);">K-Beauty</span></div>
         <p style="color:rgba(255,255,255,.5);font-size:13.5px;margin-top:14px;max-width:280px;">
-          JEIU(재능대학교) × FPT Polytechnic 공동 운영<br>2년제 K-뷰티 전문가 교육과정
+          Đồng vận hành bởi JEIU (Đại học Jaeneung) × FPT Polytechnic<br>Chương trình đào tạo chuyên gia K-Beauty 2 năm
         </p>
       </div>
       <div class="col" style="font-size:13.5px;color:rgba(255,255,255,.65);gap:8px;">
-        <div>문의 &nbsp;추후 공지 예정</div>
-        <div>캠퍼스 &nbsp;베트남 전역 운영</div>
-        <div>SNS &nbsp;공식 채널 오픈 예정</div>
+        <div>Liên hệ &nbsp;Sẽ thông báo sau</div>
+        <div>Cơ sở &nbsp;Hoạt động trên toàn Việt Nam</div>
+        <div>Mạng xã hội &nbsp;Kênh chính thức sắp ra mắt</div>
       </div>
     </div>
     <div style="margin-top:36px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);font-size:12.5px;color:rgba(255,255,255,.4);">© 2026 School of K-Beauty. All rights reserved.</div>
